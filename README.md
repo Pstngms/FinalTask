@@ -26,9 +26,9 @@ Element Locator(расширение Chrome)
     python -m pytest -v --driver Chrome --driver-path *chromedriver path* tests/*test_name.py*
     ```
     
-*chromedriver path* - путь до веб-драйвера.
+    *chromedriver path* - путь до веб-драйвера.
 
-*test_name.py* - название файла с тестами(в папке tests).
+    *test_name.py* - название файла с тестами(в папке tests).
 
 Названия тестов:
 
