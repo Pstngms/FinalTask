@@ -17,12 +17,12 @@ Element Locator(расширение Chrome)
 
 ## Запуск
 Для работы с данными тестами необходимо установить пакеты с помощью команды:
-    ```bash
+    ```
     pip install -r requirements
     ```
     
 Для запуска используйте команду:
-    ```bash
+    ```
     python -m pytest -v --driver Chrome --driver-path *chromedriver path* tests/*test_name.py*
     ```
     
