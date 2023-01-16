@@ -20,16 +20,19 @@ Element Locator(расширение Chrome)
     ```bash
     pip install -r requirements
     ```
+    
 Для запуска используйте команду:
     ```bash
     python -m pytest -v --driver Chrome --driver-path *chromedriver path* tests/*test_name.py*
     ```
+    
 *chromedriver path* - путь до веб-драйвера.
 
 *test_name.py* - название файла с тестами(в папке tests).
 
-test_auth.py - Форма "Авторизация".
+Названия тестов:
+    test_auth.py - Форма "Авторизация".
 
-test_pass_recovery.py - Форма "Восстановление пароля".
+    test_pass_recovery.py - Форма "Восстановление пароля".
 
-test_sing_up.py - Форма "Регистрация".
+    test_sing_up.py - Форма "Регистрация".
