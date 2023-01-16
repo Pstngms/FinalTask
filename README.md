@@ -31,6 +31,7 @@ Element Locator(расширение Chrome)
 *test_name.py* - название файла с тестами(в папке tests).
 
 Названия тестов:
+
     test_auth.py - Форма "Авторизация".
 
     test_pass_recovery.py - Форма "Восстановление пароля".
